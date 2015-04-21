@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>boards-show</title>
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/boards-show.css">
+</head>
+<body class="body boards-show clearfix">
+  <header class="_container-1">
+    <nav class="_container-2 clearfix">
+      <a href="http://example.com" class="goto-boards">Go to boards</a>
+    </nav>
+    <div class="info-section clearfix">
+      <h1 class="grettings">Hi, <strong>John Appleseed</strong>!</h1>
+    </div>
+  </header>
+  <div class="board clearfix">
+    <div class="board-header clearfix">
+      <h1 class="title">Board name</h1>
+      <form class="create-board clearfix">
+        <input class="card-name" name="card[title]" placeholder="type here to create a new card…" type="text">
+        <button class="create" type="submit">Create<br></button>
+      </form>
+    </div>
+    <div class="container clearfix">
+      <div class="list clearfix">
+        <h2 class="title">List name</h2>
+        <div class="cards-container clearfix js-cards-container">
+          <a href="http://example.com" class="card clearfix">
+            <p class="text">Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-min.js"></script>
+  <script src="js/boards-show.js"></script>
+</body>
+</html>
